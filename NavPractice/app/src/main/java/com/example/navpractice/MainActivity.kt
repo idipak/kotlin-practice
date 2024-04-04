@@ -11,6 +11,7 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.navpractice.Screens.RecipeScreen
 import com.example.navpractice.Screens.Screen1
 import com.example.navpractice.Screens.Screen2
 import com.example.navpractice.ui.theme.NavPracticeTheme
@@ -22,7 +23,7 @@ class MainActivity : ComponentActivity() {
             NavPracticeTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                    MyApp()
+                    RecipeScreen()
                 }
             }
         }
